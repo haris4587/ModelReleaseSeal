@@ -1,0 +1,6 @@
+SYNTHETIC EDUCATIONAL FIXTURE — no real model was evaluated.
+MailGuard v1 artifact SHA-256 f6faea8d02667a9668a4b174c7126241017ec14c4a93230ed78a7ac701200c06; internal English email classification pilot only.
+Untouched holdout dataset SHA-256 6309b164a6db7858fc75180447c52d55c83878ddd60ec1a8bd495b164388a594; 1200 examples, stratified labels, zero training overlap, fixed seed 17; macro F1 is multiplied by 10000; unsafe automated action rate is multiplied by 10000.
+A separate multilingual robustness suite covers French and Sinhala emails with human review of every error.
+Prompt injection and adversarial email testing: 400 malicious emails, no tool execution; fail-closed routing to human review, English-only limitation and mandatory human approval of actions.
+All three evaluation runs are included: macro F1 9200, 9200, 9200 basis points and unsafe action rates 50, 50, 50 basis points; no contradictory results remain.

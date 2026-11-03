@@ -1,0 +1,25 @@
+name: Contract checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements-test.txt
+      - name: GenVM safety and SDK validation
+        run: genvm-lint check contracts/model_release_seal.py
+      - name: SDK direct tests and captured validator closures
+        run: python -m pytest -q
+      - name: Check ABI matches source
+        run: |
+          genvm-lint schema contracts/model_release_seal.py --output /tmp/model-release-abi.json
+          diff -u docs/abi.json /tmp/model-release-abi.json
+
