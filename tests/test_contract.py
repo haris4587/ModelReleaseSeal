@@ -211,11 +211,17 @@ def test_missing_record_and_bad_manifest(env,policy):
         with vm.expect_revert(): m.manifest({'url':'https://raw.githubusercontent.com/a/b/'+'a'*40+'/a.txt','sha256':'a'*64,'bytes':size})
 
 def test_nondeterministic_closures_are_serializable(env,policy):
+    import cloudpickle
     vm,c,m=env
-    vm.check_pickling=True
     rid,*_=setup_release(env,policy)
     c.evaluate_release(rid)
-    assert vm.run_validator()
+    result,leader,validator=vm._captured_validators[-1]
+    # The official unsafe direct shim bypasses its check_pickling flag.
+    # Explicitly round-trip BOTH actual callbacks rather than relying on that flag.
+    restored_leader=cloudpickle.loads(cloudpickle.dumps(leader))
+    restored_validator=cloudpickle.loads(cloudpickle.dumps(validator))
+    assert restored_leader()==result
+    assert restored_validator(m.gl.vm.Return(calldata=result))
 
 
 def test_failed_consensus_leaves_no_receipt(env,policy,monkeypatch):

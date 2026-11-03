@@ -9,7 +9,7 @@ Validation date: 2026-11-03. Python 3.12.14; official GenVM SDK v0.2.16; genvm-l
 | GenVM AST lint | Passed |
 | Exact SDK semantic validation | Passed |
 | ABI extraction and comparison | Passed; 6 public methods, 3 write and 3 view |
-| Nondeterministic callback serialization | Passed with official direct runner pickling checks |
+| Nondeterministic callback serialization | Explicit cloudpickle round-trip of both actual callbacks |
 | Public-network deployment/finality | Not performed; no configured signing account/live node |
 
 The suite covers all four outcomes; integer threshold boundaries; sample minimums; wrong units/dataset/model identity; missing and duplicate measurements; duplicate JSON keys; unknown fields; type/bounds attacks; commit-only URL allowlisting; creator authorization; immutable policy records; three-attempt history and hashes; corrupted/HTTP-failing evidence; invalid model output; independently disagreeing validators; forged quotes, status, numeric values, outcomes and explanations; different grounded prose; source reauthentication; offline tampering detection; closure pickling; and no history write after rejected consensus.
