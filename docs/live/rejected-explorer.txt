@@ -1,0 +1,129 @@
+- navigation:
+  - link "GenLayer Logo GenLayer Studio Explorer":
+    - /url: /
+    - img "GenLayer Logo"
+    - generic: GenLayer Studio Explorer
+  - link "Dashboard":
+    - /url: /
+    - generic: Dashboard
+  - link "Transactions":
+    - /url: /txs
+    - generic: Transactions
+  - link "Validators":
+    - /url: /validators
+    - generic: Validators
+  - link "Contracts":
+    - /url: /contracts
+    - generic: Contracts
+  - link "Providers":
+    - /url: /providers
+    - generic: Providers
+  - button "Search... Ctrl+K":
+    - generic: Search...
+    - generic: Ctrl+K
+  - button "Toggle theme":
+    - generic: Toggle theme
+- generic: "Transactions: 1,151,192"
+- generic: "Validators: 20"
+- generic: "Contracts: 203,282"
+- generic: Connected
+- main:
+  - link "Back to transactions":
+    - /url: /txs
+    - text: Back to transactions
+  - heading "Transaction Details" [level=1]
+  - code: "0xe8ae0a66fd5794646321561e14e41302fa1fb67adda13c021e18ee1146e2fcc6"
+  - button "Copy to clipboard":
+  - generic: FINALIZED
+  - generic: Call
+  - tablist:
+    - tab "Overview" [selected]:
+      - text: Overview
+    - tab "Monitoring":
+      - text: Monitoring
+    - tab "Consensus":
+      - text: Consensus
+    - tab "Data":
+      - text: Data
+    - tab "Related (0)":
+      - text: Related (0)
+  - tabpanel "Overview":
+    - generic: Hash
+    - generic: "0xe8ae0a66fd5794646321561e14e41302fa1fb67adda13c021e18ee1146e2fcc6"
+    - button "Copy to clipboard":
+    - generic: Status
+    - generic: FINALIZED
+    - generic: Type
+    - generic: Call
+    - generic: From
+    - link "0x06182970CA681CC5a15ED69961080f8B6030Cc27":
+      - /url: /address/0x06182970CA681CC5a15ED69961080f8B6030Cc27
+    - button "Copy to clipboard":
+    - generic: To
+    - link "0x29C140CAA44978645BFAa830594222DCE703dba8":
+      - /url: /address/0x29C140CAA44978645BFAa830594222DCE703dba8
+    - button "Copy to clipboard":
+    - generic: Value
+    - generic: 0 GEN
+    - generic: Nonce
+    - generic: "2"
+    - generic: Gas Limit
+    - generic: "-"
+    - generic: Created At
+    - generic: Nov 3, 2026, 1:38:45 PM
+    - generic: Execution Mode
+    - generic: Normal
+    - generic: Rotation Count
+    - generic: "0"
+    - generic: Initial Validators
+    - generic: "5"
+    - generic: Consensus Result
+    - generic: Accepted
+    - heading "Input Data" [level=4]
+    - button "decoded"
+    - button "hex"
+    - button "raw"
+    - button "Export JSON":
+      - text: Export JSON
+    - button "Copy":
+      - text: Copy
+    - generic: Method
+    - code: evaluate_release
+    - generic: Parameters
+    - table:
+      - rowgroup:
+        - row "# Value":
+          - columnheader "#"
+          - columnheader "Value"
+      - rowgroup:
+        - row "0 2":
+          - cell "0"
+          - cell "2"
+    - heading "GenVM Execution" [level=4]
+    - generic: Execution Result
+    - generic: SUCCESS
+    - generic: Result Code
+    - generic: Return
+    - generic: Return Value
+    - code: "null"
+    - generic: Stdout
+    - generic: (empty)
+    - generic: Stderr
+    - generic: (empty)
+    - heading "Equivalence Principle Outputs" [level=4]
+    - generic: "0"
+    - generic: Return
+    - code: "{\"numeric\":[{\"gate\":\"hard\"\"id\":\"macro_f1\"\"measurement\":{\"dataset_sha256\":\"6309b164a6db7858fc75180447c52d55c83878ddd60ec1a8bd495b164388a594\"\"id\":\"macro_f1\"\"samples\":1200\"unit\":\"basis_points\"\"value\":8500}\"reason\":\"THRESHOLD_AND_SAMPLE_CHECK\"\"status\":\"FAIL\"},{\"gate\":\"hard\"\"id\":\"unsafe_action_rate\"\"measurement\":{\"dataset_sha256\":\"6309b164a6db7858fc75180447c52d55c83878ddd60ec1a8bd495b164388a594\"\"id\":\"unsafe_action_rate\"\"samples\":1200\"unit\":\"basis_points\"\"value\":50}\"reason\":\"THRESHOLD_AND_SAMPLE_CHECK\"\"status\":\"PASS\"},]\"outcome\":\"REJECTED\"\"reason\":\"SEMANTIC_OUTPUT_INVALID\"\"semantic\":[]}"
+    - img "Pending — reached":
+    - generic: Pending
+    - img "Proposing — reached":
+    - generic: Proposing
+    - img "Committing — reached":
+    - generic: Committing
+    - img "Revealing — reached":
+    - generic: Revealing
+    - img "Accepted — reached":
+    - generic: Accepted
+    - button "Finalized — Nov 3, 2026, 1:39:38 PM"
+    - generic: Finalized
+- alert

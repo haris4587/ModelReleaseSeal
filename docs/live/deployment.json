@@ -1,0 +1,25 @@
+{
+  "network": "Studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "transactions": {
+    "deploy": "0x6a29cf4c56878937a30eb2a65f8e5aca6fa2961e5bc8eab4d8cac233e278d10a",
+    "lock_policy": "0xb4d0703161c52b2e78382229323b718c02974db997e07b9a962696aefbca20f2",
+    "submit_ready": "0x86175bb8805b493032202f22970bb128784d054198dd9d9b23e8efd61b2ec3a4",
+    "evaluate_ready": "0x75aa2161a5f85baa3c96bac095b476fbd01f2694270a0d20906834c1655e9185",
+    "lock_policy_browser": "0xbba30fbb8becf05441ae1c40951f59500c0e47d0a72e86eaa445cae76544f403",
+    "submit_rejected": "0x67a6b76f873b3398ff13307cba5005e5966f3f9a90998fdb582c44274b531f44",
+    "evaluate_rejected": "0xe8ae0a66fd5794646321561e14e41302fa1fb67adda13c021e18ee1146e2fcc6"
+  },
+  "demo_signer": "0xe2534959bbCe3c6aF2838FF1AC66fF8fE1C4D1F2",
+  "source_sha256": "bb04fea3de48109697eb880110393920daec40bfebeb1ac7191afb605f5158ab",
+  "address": "0x29C140CAA44978645BFAa830594222DCE703dba8",
+  "policy_id": "1",
+  "browser_demo_signer": "0x06182970CA681CC5a15ED69961080f8B6030Cc27",
+  "read_state": "latest-final",
+  "recorded_outcomes": {
+    "1": "INCONCLUSIVE",
+    "2": "REJECTED"
+  },
+  "verification_note": "All seven transactions observed FINALIZED/SUCCESS/Accepted in the public explorer. Both finalized assessments returned SEMANTIC_OUTPUT_INVALID with no semantic findings; no completed positive semantic assessment is claimed."
+}

@@ -1,6 +1,8 @@
 # Deployment status
 
-Implementation, automated SDK direct tests, GenVM lint/semantic validation and ABI extraction are included. **No public deployment address, funded signing account, live transaction or multi-validator finality result is claimed.** This workspace provided no configured GenLayer signing account or live node. Public-network deployment remains unverified.
+**Live on Studionet (61999): 0x29C140CAA44978645BFAa830594222DCE703dba8.** Deployment and six subsequent writes finalized successfully in Normal / Full Consensus. Deployed source was retrieved and matched byte for byte. See [live evidence and limitations](LIVE_TEST.md).
+
+The two recorded assessments returned INCONCLUSIVE and REJECTED with SEMANTIC_OUTPUT_INVALID. This proves deployed execution and fail-closed behavior, not a successful positive semantic readiness assessment. All evidence is synthetic. Studionet is a development environment and may reset.
 
 The source pins official GenVM v0.2.16 and its py-genlayer runner hash. Deploy only on a compatible network; do not silently change the dependency hash.
 

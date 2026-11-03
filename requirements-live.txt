@@ -1,0 +1,2 @@
+genlayer-py==0.16.3
+requests==2.34.2

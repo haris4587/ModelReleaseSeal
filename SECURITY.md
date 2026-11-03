@@ -24,5 +24,5 @@ The allowlist constrains requested URLs; GenVM's HTTP module controls redirects,
 
 Creators can choose weak policies and create additional release IDs. Per-release bounds are not Sybil-resistant. Review scope, all known releases and complete histories; absence of undisclosed negative evidence cannot be proved.
 
-There is no token custody, automated deployment authorization or safety certification. Results are scoped documentary readiness assessments. No external security audit or live network consensus verification is claimed; see docs/DEPLOYMENT.md.
+There is no token custody, automated deployment authorization or safety certification. Results are scoped documentary readiness assessments. No external security audit is claimed. Live deployment/finality and fail-closed outcomes are recorded in docs/LIVE_TEST.md; successful positive semantic assessment remains unverified.
 

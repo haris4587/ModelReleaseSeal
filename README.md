@@ -2,6 +2,8 @@
 
 **Evidence-bound AI model release reviews on GenLayer.**
 
+Live contract on Studionet (61999): [0x29C140CAA44978645BFAa830594222DCE703dba8](https://explorer-studio.genlayer.com/address/0x29C140CAA44978645BFAa830594222DCE703dba8). Seven transactions finalized with successful execution. [Live evidence and limitations](docs/LIVE_TEST.md): the two assessments exercised fail-closed behavior (INCONCLUSIVE and REJECTED); neither completed semantic findings.
+
 A standalone Intelligent Contract for deciding whether an exact AI model artifact satisfies a locked release policy. Commit numerical thresholds and semantic requirements first, submit immutable evaluation snapshots, and obtain quotation-grounded assessments through native GenLayer leader/validator execution.
 
 This repository includes the contract primitive, automated tests, synthetic evidence, ABI and reviewer instructions. It has no frontend and belongs in **Intelligent Contracts**.

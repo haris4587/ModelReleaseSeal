@@ -1,0 +1,240 @@
+- navigation:
+  - link "GenLayer Logo GenLayer Studio Explorer":
+    - /url: /
+    - img "GenLayer Logo"
+    - generic: GenLayer Studio Explorer
+  - link "Dashboard":
+    - /url: /
+    - generic: Dashboard
+  - link "Transactions":
+    - /url: /txs
+    - generic: Transactions
+  - link "Validators":
+    - /url: /validators
+    - generic: Validators
+  - link "Contracts":
+    - /url: /contracts
+    - generic: Contracts
+  - link "Providers":
+    - /url: /providers
+    - generic: Providers
+  - button "Search... Ctrl+K":
+    - generic: Search...
+    - generic: Ctrl+K
+  - button "Toggle theme":
+    - generic: Toggle theme
+- generic: "Transactions: 1,151,192"
+- generic: "Validators: 20"
+- generic: "Contracts: 203,282"
+- generic: Connected
+- main:
+  - link "Back to contracts":
+    - /url: /contracts
+    - text: Back to contracts
+  - heading "Contract" [level=1]
+  - code: "0x29C140CAA44978645BFAa830594222DCE703dba8"
+  - button "Copy to clipboard":
+  - paragraph: Balance
+  - paragraph: 0 GEN
+  - paragraph: Transactions
+  - paragraph: "7"
+  - paragraph: Last Updated
+  - paragraph: 2 minutes ago
+  - paragraph: Creator
+  - link "0xe25349...C4D1F2":
+    - /url: /address/0xe2534959bbCe3c6aF2838FF1AC66fF8fE1C4D1F2
+  - button "Copy to clipboard":
+  - paragraph: Deploy Tx
+  - link "0x6a29cf4c...e278d10a":
+    - /url: /tx/0x6a29cf4c56878937a30eb2a65f8e5aca6fa2961e5bc8eab4d8cac233e278d10a
+  - button "Copy to clipboard":
+  - paragraph: Created
+  - paragraph: Nov 3, 2026, 1:25:04 PM
+  - tablist:
+    - tab "Transactions (7)" [selected]:
+      - text: Transactions (7)
+    - tab "Contract":
+      - text: Contract
+  - tabpanel "Transactions (7)":
+    - text: Latest 7 from a total of
+    - generic: "7"
+    - text: transactions
+    - table:
+      - rowgroup:
+        - row "Hash Type Status From To Method GenVM Result Consensus Result Time":
+          - columnheader "Hash"
+          - columnheader "Type"
+          - columnheader "Status":
+            - text: Status
+          - columnheader
+          - columnheader "From"
+          - columnheader "To"
+          - columnheader "Method"
+          - columnheader "GenVM Result":
+            - text: GenVM Result
+          - columnheader "Consensus Result":
+            - text: Consensus Result
+          - columnheader "Time"
+      - rowgroup:
+        - row "0xe8ae0a66...46e2fcc6 Copy to clipboard Call FINALIZED IN 0x061829...30Cc27 Copy to clipboard 0x29C140...03dba8 Copy to clipboard evaluate_release SUCCESS Accepted 3 minutes ago":
+          - cell "0xe8ae0a66...46e2fcc6 Copy to clipboard":
+            - link "0xe8ae0a66...46e2fcc6":
+              - /url: /tx/0xe8ae0a66fd5794646321561e14e41302fa1fb67adda13c021e18ee1146e2fcc6
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "IN":
+            - generic: IN
+          - cell "0x061829...30Cc27 Copy to clipboard":
+            - link "0x061829...30Cc27":
+              - /url: /address/0x06182970CA681CC5a15ED69961080f8B6030Cc27
+            - button "Copy to clipboard":
+          - cell "0x29C140...03dba8 Copy to clipboard":
+            - link "0x29C140...03dba8":
+              - /url: /address/0x29C140CAA44978645BFAa830594222DCE703dba8
+            - button "Copy to clipboard":
+          - cell "evaluate_release"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "3 minutes ago"
+        - row "0x67a6b76f...4b531f44 Copy to clipboard Call FINALIZED IN 0x061829...30Cc27 Copy to clipboard 0x29C140...03dba8 Copy to clipboard submit_release SUCCESS Accepted 4 minutes ago":
+          - cell "0x67a6b76f...4b531f44 Copy to clipboard":
+            - link "0x67a6b76f...4b531f44":
+              - /url: /tx/0x67a6b76f873b3398ff13307cba5005e5966f3f9a90998fdb582c44274b531f44
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "IN":
+            - generic: IN
+          - cell "0x061829...30Cc27 Copy to clipboard":
+            - link "0x061829...30Cc27":
+              - /url: /address/0x06182970CA681CC5a15ED69961080f8B6030Cc27
+            - button "Copy to clipboard":
+          - cell "0x29C140...03dba8 Copy to clipboard":
+            - link "0x29C140...03dba8":
+              - /url: /address/0x29C140CAA44978645BFAa830594222DCE703dba8
+            - button "Copy to clipboard":
+          - cell "submit_release"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "4 minutes ago"
+        - row "0xbba30fbb...6544f403 Copy to clipboard Call FINALIZED IN 0x061829...30Cc27 Copy to clipboard 0x29C140...03dba8 Copy to clipboard lock_policy SUCCESS Accepted 5 minutes ago":
+          - cell "0xbba30fbb...6544f403 Copy to clipboard":
+            - link "0xbba30fbb...6544f403":
+              - /url: /tx/0xbba30fbb8becf05441ae1c40951f59500c0e47d0a72e86eaa445cae76544f403
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "IN":
+            - generic: IN
+          - cell "0x061829...30Cc27 Copy to clipboard":
+            - link "0x061829...30Cc27":
+              - /url: /address/0x06182970CA681CC5a15ED69961080f8B6030Cc27
+            - button "Copy to clipboard":
+          - cell "0x29C140...03dba8 Copy to clipboard":
+            - link "0x29C140...03dba8":
+              - /url: /address/0x29C140CAA44978645BFAa830594222DCE703dba8
+            - button "Copy to clipboard":
+          - cell "lock_policy"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "5 minutes ago"
+        - row "0x75aa2161...655e9185 Copy to clipboard Call FINALIZED IN 0xe25349...C4D1F2 Copy to clipboard 0x29C140...03dba8 Copy to clipboard evaluate_release SUCCESS Accepted 13 minutes ago":
+          - cell "0x75aa2161...655e9185 Copy to clipboard":
+            - link "0x75aa2161...655e9185":
+              - /url: /tx/0x75aa2161a5f85baa3c96bac095b476fbd01f2694270a0d20906834c1655e9185
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "IN":
+            - generic: IN
+          - cell "0xe25349...C4D1F2 Copy to clipboard":
+            - link "0xe25349...C4D1F2":
+              - /url: /address/0xe2534959bbCe3c6aF2838FF1AC66fF8fE1C4D1F2
+            - button "Copy to clipboard":
+          - cell "0x29C140...03dba8 Copy to clipboard":
+            - link "0x29C140...03dba8":
+              - /url: /address/0x29C140CAA44978645BFAa830594222DCE703dba8
+            - button "Copy to clipboard":
+          - cell "evaluate_release"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "13 minutes ago"
+        - row "0x86175bb8...1b2ec3a4 Copy to clipboard Call FINALIZED IN 0xe25349...C4D1F2 Copy to clipboard 0x29C140...03dba8 Copy to clipboard submit_release SUCCESS Accepted 14 minutes ago":
+          - cell "0x86175bb8...1b2ec3a4 Copy to clipboard":
+            - link "0x86175bb8...1b2ec3a4":
+              - /url: /tx/0x86175bb8805b493032202f22970bb128784d054198dd9d9b23e8efd61b2ec3a4
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "IN":
+            - generic: IN
+          - cell "0xe25349...C4D1F2 Copy to clipboard":
+            - link "0xe25349...C4D1F2":
+              - /url: /address/0xe2534959bbCe3c6aF2838FF1AC66fF8fE1C4D1F2
+            - button "Copy to clipboard":
+          - cell "0x29C140...03dba8 Copy to clipboard":
+            - link "0x29C140...03dba8":
+              - /url: /address/0x29C140CAA44978645BFAa830594222DCE703dba8
+            - button "Copy to clipboard":
+          - cell "submit_release"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "14 minutes ago"
+        - row "0xb4d07031...fbca20f2 Copy to clipboard Call FINALIZED IN 0xe25349...C4D1F2 Copy to clipboard 0x29C140...03dba8 Copy to clipboard lock_policy SUCCESS Accepted 16 minutes ago":
+          - cell "0xb4d07031...fbca20f2 Copy to clipboard":
+            - link "0xb4d07031...fbca20f2":
+              - /url: /tx/0xb4d0703161c52b2e78382229323b718c02974db997e07b9a962696aefbca20f2
+            - button "Copy to clipboard":
+          - cell "Call":
+            - generic: Call
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "IN":
+            - generic: IN
+          - cell "0xe25349...C4D1F2 Copy to clipboard":
+            - link "0xe25349...C4D1F2":
+              - /url: /address/0xe2534959bbCe3c6aF2838FF1AC66fF8fE1C4D1F2
+            - button "Copy to clipboard":
+          - cell "0x29C140...03dba8 Copy to clipboard":
+            - link "0x29C140...03dba8":
+              - /url: /address/0x29C140CAA44978645BFAa830594222DCE703dba8
+            - button "Copy to clipboard":
+          - cell "lock_policy"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "16 minutes ago"
+        - row "0x6a29cf4c...e278d10a Copy to clipboard Deploy FINALIZED IN 0xe25349...C4D1F2 Copy to clipboard 0x29C140...03dba8 Copy to clipboard (constructor) SUCCESS Accepted 17 minutes ago":
+          - cell "0x6a29cf4c...e278d10a Copy to clipboard":
+            - link "0x6a29cf4c...e278d10a":
+              - /url: /tx/0x6a29cf4c56878937a30eb2a65f8e5aca6fa2961e5bc8eab4d8cac233e278d10a
+            - button "Copy to clipboard":
+          - cell "Deploy":
+            - generic: Deploy
+          - cell "FINALIZED":
+            - generic: FINALIZED
+          - cell "IN":
+            - generic: IN
+          - cell "0xe25349...C4D1F2 Copy to clipboard":
+            - link "0xe25349...C4D1F2":
+              - /url: /address/0xe2534959bbCe3c6aF2838FF1AC66fF8fE1C4D1F2
+            - button "Copy to clipboard":
+          - cell "0x29C140...03dba8 Copy to clipboard":
+            - link "0x29C140...03dba8":
+              - /url: /address/0x29C140CAA44978645BFAa830594222DCE703dba8
+            - button "Copy to clipboard":
+          - cell "(constructor)"
+          - cell "SUCCESS"
+          - cell "Accepted"
+          - cell "17 minutes ago"
+- alert

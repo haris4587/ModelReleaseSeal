@@ -29,5 +29,5 @@ Policies are reusable across model versions. Inputs are immutable. Canonical rec
 - SECURITY.md — enforced controls and remaining risks
 - docs/DEPLOYMENT.md — honest deployment status
 
-Bundled evidence is synthetic. The primitive assesses documentary readiness, not universal safety, and does not execute models or rerun benchmarks. Local SDK checks and mocked direct tests are included; live public-network execution/finality is not claimed. Do not submit a fabricated address or present local tests as live consensus proof.
+Bundled evidence is synthetic. The primitive assesses documentary readiness, not universal safety, and does not execute models or rerun benchmarks. Local SDK checks and mocked direct tests are included. Live Studionet contract: 0x29C140CAA44978645BFAa830594222DCE703dba8. Seven Normal-mode transactions finalized successfully. Recorded assessments returned INCONCLUSIVE and REJECTED because semantic output validation failed; these runs demonstrate fail-closed behavior, not a completed positive semantic review. See docs/LIVE_TEST.md for transaction links, receipts and remaining limitations.
 

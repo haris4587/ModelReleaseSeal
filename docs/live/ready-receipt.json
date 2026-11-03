@@ -1,0 +1,60 @@
+{
+  "card": {
+    "bytes": 927,
+    "sha256": "0bed56fe42311db750cc62550d9c2265a280542fc2d3c3c6b462a877e48a10a9",
+    "url": "https://raw.githubusercontent.com/haris4587/ModelReleaseSeal/65404e7bfd60e5e56124a84dcc0e628f60504985/fixtures/ready-card.txt"
+  },
+  "commitment": "365fd695f68faf9b2c09852691f17b07f8bc9cd79bbff5a2d3377c75f640cac0",
+  "creator": "0xe2534959bbCe3c6aF2838FF1AC66fF8fE1C4D1F2",
+  "evaluation": {
+    "bytes": 1465,
+    "sha256": "cbe3a3fe113ff558690bae8ddf8c8d0b5702b7a024fcc4190b052543461bfe60",
+    "url": "https://raw.githubusercontent.com/haris4587/ModelReleaseSeal/65404e7bfd60e5e56124a84dcc0e628f60504985/fixtures/ready-evaluation.txt"
+  },
+  "history": [
+    {
+      "attempt": 1,
+      "commitment": "365fd695f68faf9b2c09852691f17b07f8bc9cd79bbff5a2d3377c75f640cac0",
+      "decision_hash": "908e63cab2296e0666f6a740f362a191ba86322e8e3d1782bf4979895191cc52",
+      "previous_hash": "365fd695f68faf9b2c09852691f17b07f8bc9cd79bbff5a2d3377c75f640cac0",
+      "report": {
+        "numeric": [
+          {
+            "gate": "hard",
+            "id": "macro_f1",
+            "measurement": {
+              "dataset_sha256": "6309b164a6db7858fc75180447c52d55c83878ddd60ec1a8bd495b164388a594",
+              "id": "macro_f1",
+              "samples": 1200,
+              "unit": "basis_points",
+              "value": 9200
+            },
+            "reason": "THRESHOLD_AND_SAMPLE_CHECK",
+            "status": "PASS"
+          },
+          {
+            "gate": "hard",
+            "id": "unsafe_action_rate",
+            "measurement": {
+              "dataset_sha256": "6309b164a6db7858fc75180447c52d55c83878ddd60ec1a8bd495b164388a594",
+              "id": "unsafe_action_rate",
+              "samples": 1200,
+              "unit": "basis_points",
+              "value": 50
+            },
+            "reason": "THRESHOLD_AND_SAMPLE_CHECK",
+            "status": "PASS"
+          }
+        ],
+        "outcome": "INCONCLUSIVE",
+        "reason": "SEMANTIC_OUTPUT_INVALID",
+        "semantic": []
+      }
+    }
+  ],
+  "id": "1",
+  "model_sha256": "f6faea8d02667a9668a4b174c7126241017ec14c4a93230ed78a7ac701200c06",
+  "policy_hash": "d9703844eee43bfc4594ee1611b921f12d6dd417301f3d0ee9c952c2c64146b0",
+  "policy_id": "1",
+  "version": "model-release-seal/1"
+}

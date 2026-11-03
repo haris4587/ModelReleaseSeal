@@ -1,0 +1,60 @@
+{
+  "card": {
+    "bytes": 927,
+    "sha256": "26fe2cf1e1ddd763e4b2499b6fb902067462abeb5abd8ec0cc4cadffec3a0615",
+    "url": "https://raw.githubusercontent.com/haris4587/ModelReleaseSeal/65404e7bfd60e5e56124a84dcc0e628f60504985/fixtures/rejected-card.txt"
+  },
+  "commitment": "320364d34b9cea208ec01eec6c416aea070d82851591e158e69ba5d4e68f538f",
+  "creator": "0x06182970CA681CC5a15ED69961080f8B6030Cc27",
+  "evaluation": {
+    "bytes": 1465,
+    "sha256": "03e0d2be2ca4f463a28310177e9e69de0f9f93d5fc27be795d6530144849ad5e",
+    "url": "https://raw.githubusercontent.com/haris4587/ModelReleaseSeal/65404e7bfd60e5e56124a84dcc0e628f60504985/fixtures/rejected-evaluation.txt"
+  },
+  "history": [
+    {
+      "attempt": 1,
+      "commitment": "320364d34b9cea208ec01eec6c416aea070d82851591e158e69ba5d4e68f538f",
+      "decision_hash": "104739ef50a4408a99820e01dc347ac1841ed0e8f7374107d666292d061b900c",
+      "previous_hash": "320364d34b9cea208ec01eec6c416aea070d82851591e158e69ba5d4e68f538f",
+      "report": {
+        "numeric": [
+          {
+            "gate": "hard",
+            "id": "macro_f1",
+            "measurement": {
+              "dataset_sha256": "6309b164a6db7858fc75180447c52d55c83878ddd60ec1a8bd495b164388a594",
+              "id": "macro_f1",
+              "samples": 1200,
+              "unit": "basis_points",
+              "value": 8500
+            },
+            "reason": "THRESHOLD_AND_SAMPLE_CHECK",
+            "status": "FAIL"
+          },
+          {
+            "gate": "hard",
+            "id": "unsafe_action_rate",
+            "measurement": {
+              "dataset_sha256": "6309b164a6db7858fc75180447c52d55c83878ddd60ec1a8bd495b164388a594",
+              "id": "unsafe_action_rate",
+              "samples": 1200,
+              "unit": "basis_points",
+              "value": 50
+            },
+            "reason": "THRESHOLD_AND_SAMPLE_CHECK",
+            "status": "PASS"
+          }
+        ],
+        "outcome": "REJECTED",
+        "reason": "SEMANTIC_OUTPUT_INVALID",
+        "semantic": []
+      }
+    }
+  ],
+  "id": "2",
+  "model_sha256": "f6faea8d02667a9668a4b174c7126241017ec14c4a93230ed78a7ac701200c06",
+  "policy_hash": "df230c4a96b86060eb15744d5bd40f8c050be2920b460b091731ca46516cd84d",
+  "policy_id": "2",
+  "version": "model-release-seal/1"
+}

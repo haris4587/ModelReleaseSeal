@@ -1,0 +1,44 @@
+[
+  {
+    "label": "deploy",
+    "hash": "0x6a29cf4c56878937a30eb2a65f8e5aca6fa2961e5bc8eab4d8cac233e278d10a",
+    "status": "FINALIZED",
+    "mode": "NORMAL",
+    "execution": "SUCCESS",
+    "votes": {
+      "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
+      "0x045291B293B9D68969c18B6637A8258038cf787A": "idle",
+      "0x336458747913FE397be82c4F0926ACeB3ab13618": "idle",
+      "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",
+      "0xb9ed1258763dfFC83356b15e8A20236B86E42ba2": "agree"
+    }
+  },
+  {
+    "label": "lock_policy",
+    "hash": "0xb4d0703161c52b2e78382229323b718c02974db997e07b9a962696aefbca20f2",
+    "status": "FINALIZED",
+    "mode": "NORMAL",
+    "execution": "SUCCESS",
+    "votes": {
+      "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
+      "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
+      "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "idle",
+      "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "idle",
+      "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "agree"
+    }
+  },
+  {
+    "label": "submit_ready",
+    "hash": "0x86175bb8805b493032202f22970bb128784d054198dd9d9b23e8efd61b2ec3a4",
+    "status": "FINALIZED",
+    "mode": "NORMAL",
+    "execution": "SUCCESS",
+    "votes": {
+      "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
+      "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
+      "0xCe0B66448435cA53665C954705Abd753515594Cf": "idle",
+      "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree",
+      "0xe06A34A1eBd398AF3399d08593B8c3C433CdD947": "idle"
+    }
+  }
+]
